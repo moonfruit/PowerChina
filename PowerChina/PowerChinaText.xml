@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<!-- Leader Trait Names -->
-		<Row Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_NAME_PLUS" Language="zh_Hans_CN">
-			<Text>宗教转换</Text>
-		</Row>
-		<!-- Leader Trait Descriptions -->
-		<Row Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_DESCRIPTION_PLUS" Language="zh_Hans_CN">
-			<Text>每次完成一个社区或卫城时获得一位（城市主流宗教的）使徒。</Text>
-		</Row>
 		<!-- Building Dragon -->
 		<Row Tag="LOC_BUILDING_DRAGON_NAME" Language="zh_Hans_CN">
 			<Text>龙脉</Text>

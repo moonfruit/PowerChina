@@ -23,7 +23,6 @@
 		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_UNIT_AMERICAN_ROUGH_RIDER"/>
 		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_PAX_BRITANNICA"/>
 		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_UNIT_ENGLISH_REDCOAT"/>
-		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_GIFTS_FOR_TLATOANI"/>
 		<!-- Australia -->
 		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION"/>
 		<!-- Aztec -->
@@ -37,8 +36,44 @@
 	</LeaderTraits>
 
 	<TraitModifiers>
-		<Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FREE_APOSTLE_FINISH_MBANZA"/>
-		<Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FREE_APOSTLE_FINISH_THEATER_DISTRICT"/>
+		<!-- <Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FREE_APOSTLE_FINISH_MBANZA"/> -->
+		<!-- <Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FREE_APOSTLE_FINISH_THEATER_DISTRICT"/> -->
+		<Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FREE_APOSTLE_FINISH_NEIGHBORHOOD"/>
+		<Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FREE_APOSTLE_FINISH_ACROPOLIS_DISTRICT"/>
 	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_NEIGHBORHOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_CREATE_UNIT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_ACROPOLIS_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_CREATE_UNIT</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_NEIGHBORHOOD</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_NEIGHBORHOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_NEIGHBORHOOD</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_ACROPOLIS_DISTRICT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ACROPOLIS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_ACROPOLIS_DISTRICT</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+	</ModifierArguments>
 
 </GameInfo>
