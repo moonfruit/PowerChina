@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="POWER_CHINA" version="1.01">
+	<Properties>
+		<Name>LOC_POWER_CHINA_NAME</Name>
+		<Teaser>LOC_POWER_CHINA_DESCRIPTION</Teaser>
+		<Description>LOC_POWER_CHINA_DESCRIPTION</Description>
+		<Authors>MoonFruit</Authors>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="POWER_CHINA_GAMEPLAY">
+			<Items>
+				<File>PowerChinaCivilizations.xml</File>
+				<File>PowerChinaLeaders.xml</File>
+				<File>PowerChinaBuildings.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText>
+			<Properties>
+				<Ruleset>RULESET_STANDARD</Ruleset>
+			</Properties>
+			<Items>
+				<File>PowerChinaText.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+	<Files>
+		<File>PowerChinaCivilizations.xml</File>
+		<File>PowerChinaLeaders.xml</File>
+		<File>PowerChinaBuildings.xml</File>
+		<File>PowerChinaText.xml</File>
+	</Files>
+	<LocalizedText>
+		<Text id="LOC_POWER_CHINA_NAME">
+			<zh_Hans_CN>超级中国</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_POWER_CHINA_DESCRIPTION">
+			<zh_Hans_CN>超级中国 - 全文明特色建筑、单位及全领袖特性。</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
+</Mod>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="POWER_CHINA_MOAR" version="1.01">
+	<Properties>
+		<Name>LOC_POWER_CHINA_MOAR_NAME</Name>
+		<Teaser>LOC_POWER_CHINA_MOAR_DESCRIPTION</Teaser>
+		<Description>LOC_POWER_CHINA_MOAR_DESCRIPTION</Description>
+		<Authors>MoonFruit</Authors>
+	</Properties>
+	<Dependencies>
+		<Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MOAR_Units"/>
+		<Mod id="bf65efa2-7cef-4519-a22f-f693e07d92f9" title="EvenMoarUnitsAztec"/>
+		<Mod id="c5b55307-24bf-4952-ad64-5708fd67faec" title="EvenMoarUnitsPoland"/>
+		<Mod id="bd141853-920e-41d8-9b41-c73b1b15fb48" title="EvenMoarUnitsAustralia"/>
+		<Mod id="53ffce0d-7cc1-47c8-9f2b-c5c593e81411" title="MoarMacedonAndPersia"/>
+	</Dependencies>
+	<Components>
+		<UpdateDatabase id="POWER_CHINA_GAMEPLAY">
+			<Items>
+				<File>PowerChinaMoar.xml</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+	<Files>
+		<File>PowerChinaMoar.xml</File>
+	</Files>
+	<LocalizedText>
+		<Text id="LOC_POWER_CHINA_MOAR_NAME">
+			<zh_Hans_CN>超级中国 - MOAR</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_POWER_CHINA_MOAR_DESCRIPTION">
+			<zh_Hans_CN>超级中国 - MOAR - 全文明特色建筑、单位及全领袖特性。</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
+</Mod>

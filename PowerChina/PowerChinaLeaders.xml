@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_HOLY_ROMAN_EMPEROR"/>
+		<Row LeaderType="LEADER_QIN" TraitType="FLYING_SQUADRON_TRAIT"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_MEDITERRANEAN"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_SATYAGRAHA"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_ADVENTURES_ENKIDU"/>
+		<Row LeaderType="LEADER_QIN" TraitType="CULTURE_KILLS_TRAIT"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_UNIT_NORWEGIAN_LONGSHIP"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_DIVINE_WIND"/>
+		<!-- <Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_RELIGIOUS_CONVERT"/> -->
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_MAGNANIMOUS"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_SURROUNDED_BY_GLORY"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_GRAND_EMBASSY"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_EL_ESCORIAL"/>
+		<!-- <Row LeaderType="LEADER_QIN" TraitType="FIRST_EMPEROR_TRAIT"/> -->
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_KILLER_OF_CYRUS"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAJANS_COLUMN_TRAIT"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_ROOSEVELT_COROLLARY"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_UNIT_AMERICAN_ROUGH_RIDER"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_PAX_BRITANNICA"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_UNIT_ENGLISH_REDCOAT"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_GIFTS_FOR_TLATOANI"/>
+		<!-- Australia -->
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION"/>
+		<!-- Aztec -->
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_GIFTS_FOR_TLATOANI"/>
+		<!-- Persia & Macedon -->
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_TO_WORLDS_END"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_UNIT_HETAIROI"/>
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_FALL_BABYLON"/>
+		<!-- Poland -->
+		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_LITHUANIAN_UNION"/>
+	</LeaderTraits>
+
+	<TraitModifiers>
+		<Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FREE_APOSTLE_FINISH_MBANZA"/>
+		<Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FREE_APOSTLE_FINISH_THEATER_DISTRICT"/>
+	</TraitModifiers>
+
+</GameInfo>
