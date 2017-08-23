@@ -14,7 +14,10 @@
 		<Mod id="53ffce0d-7cc1-47c8-9f2b-c5c593e81411" title="MoarMacedonAndPersia"/>
 	</Dependencies>
 	<Components>
-		<UpdateDatabase id="POWER_CHINA_GAMEPLAY">
+		<UpdateDatabase id="POWER_CHINA_MOAR_GAMEPLAY">
+			<Properties>
+				<LoadOrder>25</LoadOrder>
+			</Properties>
 			<Items>
 				<File>PowerChinaMoar.xml</File>
 			</Items>

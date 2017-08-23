@@ -8,6 +8,9 @@
 	</Properties>
 	<Components>
 		<UpdateDatabase id="POWER_CHINA_GAMEPLAY">
+			<Properties>
+				<LoadOrder>20</LoadOrder>
+			</Properties>
 			<Items>
 				<File>PowerChinaCivilizations.xml</File>
 				<File>PowerChinaLeaders.xml</File>

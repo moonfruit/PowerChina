@@ -2,7 +2,7 @@
 <GameInfo>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_HOLY_ROMAN_EMPEROR"/>
-		<Row LeaderType="LEADER_QIN" TraitType="FLYING_SQUADRON_TRAIT"/>
+		<!-- <Row LeaderType="LEADER_QIN" TraitType="FLYING_SQUADRON_TRAIT"/> -->
 		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_MEDITERRANEAN"/>
 		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_SATYAGRAHA"/>
 		<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_ADVENTURES_ENKIDU"/>
@@ -36,6 +36,8 @@
 	</LeaderTraits>
 
 	<TraitModifiers>
+		<Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="UNIQUE_LEADER_ADD_VISIBILITY_PLUS"/>
+		<Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="UNIQUE_LEADER_ADD_SPY"/>
 		<!-- <Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FREE_APOSTLE_FINISH_MBANZA"/> -->
 		<!-- <Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FREE_APOSTLE_FINISH_THEATER_DISTRICT"/> -->
 		<Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_FREE_APOSTLE_FINISH_NEIGHBORHOOD"/>
@@ -43,6 +45,10 @@
 	</TraitModifiers>
 
 	<Modifiers>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ADD_VISIBILITY_PLUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY</ModifierType>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_NEIGHBORHOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DISTRICT_CREATE_UNIT</ModifierType>
@@ -54,6 +60,22 @@
 	</Modifiers>
 
 	<ModifierArguments>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ADD_VISIBILITY_PLUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ADD_VISIBILITY_PLUS</ModifierId>
+			<Name>Source</Name>
+			<Value>SOURCE_TRAIT</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ADD_VISIBILITY_PLUS</ModifierId>
+			<Name>SourceType</Name>
+			<!-- <Value>DIPLO_SOURCE_FEMALE_ONLY</Value> -->
+			<Value>DIPLO_SOURCE_ALL_NAMES</Value>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_NEIGHBORHOOD</ModifierId>
 			<Name>DistrictType</Name>
