@@ -22,9 +22,9 @@
 
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_SCIENCE" YieldChange="5"/>
-		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_PRODUCTION" YieldChange="20"/>
-		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_GOLD" YieldChange="20"/>
-		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_FAITH" YieldChange="5"/>
+		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_PRODUCTION" YieldChange="30"/>
+		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_GOLD" YieldChange="30"/>
+		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_FAITH" YieldChange="20"/>
 		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_FOOD" YieldChange="5"/>
 		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_CULTURE" YieldChange="5"/>
 	</Building_YieldChanges>

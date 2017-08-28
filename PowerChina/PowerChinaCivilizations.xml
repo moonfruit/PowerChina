@@ -2,7 +2,7 @@
 <GameInfo>
 	<CivilizationTraits>
 		<!-- Base -->
-		<Row CivilizationType="CIVILIZATION_CHINA" TraitType="TRAIT_CIVILIZATION_FOUNDING_FATHERS"/>
+		<!-- <Row CivilizationType="CIVILIZATION_CHINA" TraitType="TRAIT_CIVILIZATION_FOUNDING_FATHERS"/> -->
 		<Row CivilizationType="CIVILIZATION_CHINA" TraitType="TRAIT_CIVILIZATION_BUILDING_FILM_STUDIO"/>
 		<Row CivilizationType="CIVILIZATION_CHINA" TraitType="TRAIT_CIVILIZATION_UNIT_AMERICAN_P51"/>
 		<Row CivilizationType="CIVILIZATION_CHINA" TraitType="TRAIT_CIVILIZATION_LAST_PROPHET"/>
@@ -78,6 +78,42 @@
 	</CivilizationTraits>
 
 	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DYNASTIC_CYCLE</TraitType>
+			<ModifierId>TRAIT_AUTOCRACY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DYNASTIC_CYCLE</TraitType>
+			<ModifierId>TRAIT_OLIGARCHY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DYNASTIC_CYCLE</TraitType>
+			<ModifierId>TRAIT_CLASSICAL_REPUBLIC</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DYNASTIC_CYCLE</TraitType>
+			<ModifierId>TRAIT_MONARCHY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DYNASTIC_CYCLE</TraitType>
+			<ModifierId>TRAIT_THEOCRACY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DYNASTIC_CYCLE</TraitType>
+			<ModifierId>TRAIT_MERCHANT_REPUBLIC</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DYNASTIC_CYCLE</TraitType>
+			<ModifierId>TRAIT_FASCISM</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DYNASTIC_CYCLE</TraitType>
+			<ModifierId>TRAIT_COMMUNISM</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DYNASTIC_CYCLE</TraitType>
+			<ModifierId>TRAIT_DEMOCRACY</ModifierId>
+		</Row>
 		<!-- 文化 -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_DYNASTIC_CYCLE</TraitType>
@@ -146,6 +182,42 @@
 	</TraitModifiers>
 
 	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_AUTOCRACY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_ADJUST_BONUS_RATE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OLIGARCHY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_ADJUST_BONUS_RATE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_REPUBLIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_ADJUST_BONUS_RATE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MONARCHY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_ADJUST_BONUS_RATE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MERCHANT_REPUBLIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_ADJUST_BONUS_RATE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THEOCRACY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_ADJUST_BONUS_RATE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DEMOCRACY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_ADJUST_BONUS_RATE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FASCISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_ADJUST_BONUS_RATE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_COMMUNISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_ADJUST_BONUS_RATE</ModifierType>
+		</Row>
 		<!-- 文化 -->
 		<Row>
 			<ModifierId>TRAIT_YIELD_CULTURE</ModifierId>
@@ -214,6 +286,96 @@
 	</Modifiers>
 
 	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_AUTOCRACY</ModifierId>
+			<Name>BonusRate</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AUTOCRACY</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_WONDER_CONSTRUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OLIGARCHY</ModifierId>
+			<Name>BonusRate</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OLIGARCHY</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_COMBAT_EXPERIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_REPUBLIC</ModifierId>
+			<Name>BonusRate</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_REPUBLIC</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_GREAT_PEOPLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MONARCHY</ModifierId>
+			<Name>BonusRate</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MONARCHY</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_ENVOYS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THEOCRACY</ModifierId>
+			<Name>BonusRate</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THEOCRACY</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_FAITH_PURCHASES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MERCHANT_REPUBLIC</ModifierId>
+			<Name>BonusRate</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MERCHANT_REPUBLIC</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_GOLD_PURCHASES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FASCISM</ModifierId>
+			<Name>BonusRate</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FASCISM</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_UNIT_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_COMMUNISM</ModifierId>
+			<Name>BonusRate</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_COMMUNISM</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_OVERALL_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DEMOCRACY</ModifierId>
+			<Name>BonusRate</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DEMOCRACY</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_DISTRICT_PROJECTS</Value>
+		</Row>
 		<!-- 文化 -->
 		<Row>
 			<ModifierId>TRAIT_YIELD_CULTURE</ModifierId>
@@ -256,7 +418,7 @@
 		<Row>
 			<ModifierId>TRAIT_YIELD_FOOD</ModifierId>
 			<Name>Amount</Name>
-			<Value>10</Value>
+			<Value>100</Value>
 		</Row>
 		<!-- 生产力 -->
 		<Row>
