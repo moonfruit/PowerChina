@@ -12,6 +12,7 @@
 				<LoadOrder>20</LoadOrder>
 			</Properties>
 			<Items>
+				<File>PowerChinaParameters.xml</File>
 				<File>PowerChinaCivilizations.xml</File>
 				<File>PowerChinaLeaders.xml</File>
 				<File>PowerChinaBuildings.xml</File>
@@ -27,6 +28,7 @@
 		</LocalizedText>
 	</Components>
 	<Files>
+		<File>PowerChinaParameters.xml</File>
 		<File>PowerChinaCivilizations.xml</File>
 		<File>PowerChinaLeaders.xml</File>
 		<File>PowerChinaBuildings.xml</File>

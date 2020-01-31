@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_HOLY_ROMAN_EMPEROR"/>
+		<!-- <Row LeaderType="LEADER_VICTORIA" TraitType="FLYING_SQUADRON_TRAIT"/> -->
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_MEDITERRANEAN"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_SATYAGRAHA"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_ADVENTURES_ENKIDU"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="CULTURE_KILLS_TRAIT"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_UNIT_NORWEGIAN_LONGSHIP"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_DIVINE_WIND"/>
+		<!-- <Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_RELIGIOUS_CONVERT"/> -->
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_MAGNANIMOUS"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_SURROUNDED_BY_GLORY"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_GRAND_EMBASSY"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_EL_ESCORIAL"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="FIRST_EMPEROR_TRAIT"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_KILLER_OF_CYRUS"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAJANS_COLUMN_TRAIT"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_ROOSEVELT_COROLLARY"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_UNIT_AMERICAN_ROUGH_RIDER"/>
+		<!-- <Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_PAX_BRITANNICA"/> -->
+		<!-- <Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_UNIT_ENGLISH_REDCOAT"/> -->
+		<!-- Australia -->
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION"/>
+		<!-- Aztec -->
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_GIFTS_FOR_TLATOANI"/>
+		<!-- Persia & Macedon -->
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_TO_WORLDS_END"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_UNIT_HETAIROI"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_FALL_BABYLON"/>
+		<!-- Poland -->
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_LITHUANIAN_UNION"/>
+		<!-- Nubia -->
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE"/>
+	</LeaderTraits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_PAX_BRITANNICA" ModifierId="UNIQUE_LEADER_ADD_VISIBILITY_PLUS"/>
+		<Row TraitType="TRAIT_LEADER_PAX_BRITANNICA" ModifierId="UNIQUE_LEADER_ADD_SPY"/>
+		<!-- <Row TraitType="TRAIT_LEADER_PAX_BRITANNICA" ModifierId="TRAIT_FREE_APOSTLE_FINISH_MBANZA"/> -->
+		<Row TraitType="TRAIT_LEADER_PAX_BRITANNICA" ModifierId="TRAIT_FREE_APOSTLE_FINISH_THEATER_DISTRICT"/>
+		<Row TraitType="TRAIT_LEADER_PAX_BRITANNICA" ModifierId="TRAIT_FREE_APOSTLE_FINISH_NEIGHBORHOOD"/>
+		<!-- <Row TraitType="TRAIT_LEADER_PAX_BRITANNICA" ModifierId="TRAIT_FREE_APOSTLE_FINISH_ACROPOLIS_DISTRICT"/> -->
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ADD_VISIBILITY_PLUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_NEIGHBORHOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_CREATE_UNIT</ModifierType>
+		</Row>
+<!--
+		<Row>
+			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_ACROPOLIS_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_CREATE_UNIT</ModifierType>
+		</Row>
+ -->
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ADD_VISIBILITY_PLUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ADD_VISIBILITY_PLUS</ModifierId>
+			<Name>Source</Name>
+			<Value>SOURCE_TRAIT</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ADD_VISIBILITY_PLUS</ModifierId>
+			<Name>SourceType</Name>
+			<!-- <Value>DIPLO_SOURCE_FEMALE_ONLY</Value> -->
+			<Value>DIPLO_SOURCE_ALL_NAMES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_NEIGHBORHOOD</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_NEIGHBORHOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_NEIGHBORHOOD</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+<!--
+		<Row>
+			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_ACROPOLIS_DISTRICT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ACROPOLIS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_APOSTLE_FINISH_ACROPOLIS_DISTRICT</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+ -->
+	</ModifierArguments>
+
+</GameInfo>

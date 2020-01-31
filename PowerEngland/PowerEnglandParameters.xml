@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<GlobalParameters>
+		<Replace Name="EXPERIENCE_ACTIVATE_GOODY_HUT" Value="10"/>
+		<Replace Name="EXPERIENCE_REVEAL_NATURAL_WONDER" Value="20"/>
+		<!-- 攻击奖励 -->
+		<Replace Name="EXPERIENCE_COMBAT_ATTACKER_BONUS" Value="10"/>
+		<!-- 近战战斗 -->
+		<Replace Name="EXPERIENCE_NOT_COMBAT_RANGED" Value="5"/>
+		<!-- 远程战斗 -->
+		<Replace Name="EXPERIENCE_COMBAT_RANGED" Value="5"/>
+		<!-- 被城区攻击 -->
+		<Replace Name="EXPERIENCE_DISTRICT_VS_UNIT" Value="10"/>
+		<!-- 俘获野蛮人 -->
+		<Replace Name="EXPERIENCE_BARB_SOFT_CAP" Value="10"/>
+		<!-- 攻击城区 -->
+		<Replace Name="EXPERIENCE_UNIT_VS_DISTRICT_NOT_CITY_CAPTURED" Value="10"/>
+		<!-- 击败单位 -->
+		<Replace Name="EXPERIENCE_KILL_BONUS" Value="10"/>
+		<!-- 单次战斗最大经验 -->
+		<Replace Name="EXPERIENCE_MAXIMUM_ONE_COMBAT" Value="100"/>
+		<!-- 占领城市 -->
+		<Replace Name="EXPERIENCE_CITY_CAPTURED" Value="30"/>
+		<!-- 升级经验 -->
+		<!-- <Replace Name="EXPERIENCE_NEEDED_FOR_NEXT_LEVEL_MULTIPLIER" Value="5"/> -->
+		<!-- 野蛮人经验 -->
+		<Replace Name="EXPERIENCE_MAX_BARB_LEVEL" Value="10"/>
+		<!-- 最高等级 -->
+		<Replace Name="EXPERIENCE_MAX_LEVEL" Value="10"/>
+	</GlobalParameters>
+</GameInfo>

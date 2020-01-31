@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Building Dragon -->
+		<Row Tag="LOC_BUILDING_DRAGON_NAME" Language="zh_Hans_CN">
+			<Text>龙脉</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_DRAGON_NAME" Language="zh_Hans_CN">
+			<Text>特色建筑：龙脉</Text>
+		</Row>
+		<!-- All Suzerain Trait -->
+		<Row Tag="LOC_TRAIT_ALL_SUZERAIN_BONUSES_NAME" Language="zh_Hans_CN">
+			<text>全宗主国加成</text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ALL_SUZERAIN_BONUSES_DESCRIPTION" Language="zh_Hans_CN">
+			<text>多合一特性：拥有全城邦的宗主国加成。</text>
+		</Row>
+	</LocalizedText>
+</GameData>

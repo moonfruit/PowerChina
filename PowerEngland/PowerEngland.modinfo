@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="POWER_ENGLAND" version="1.00">
+	<Properties>
+		<Name>LOC_POWER_ENGLAND_NAME</Name>
+		<Teaser>LOC_POWER_ENGLAND_DESCRIPTION</Teaser>
+		<Description>LOC_POWER_ENGLAND_DESCRIPTION</Description>
+		<Authors>MoonFruit</Authors>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="POWER_ENGLAND_GAMEPLAY">
+			<Properties>
+				<LoadOrder>20</LoadOrder>
+			</Properties>
+			<Items>
+				<File>PowerEnglandParameters.xml</File>
+				<File>PowerEnglandCivilizations.xml</File>
+				<File>PowerEnglandLeaders.xml</File>
+				<File>PowerEnglandSuzerain.xml</File>
+				<File>PowerEnglandBuildings.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText>
+			<Properties>
+				<Ruleset>RULESET_STANDARD</Ruleset>
+			</Properties>
+			<Items>
+				<File>PowerEnglandText.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+	<Files>
+		<File>PowerEnglandParameters.xml</File>
+		<File>PowerEnglandCivilizations.xml</File>
+		<File>PowerEnglandLeaders.xml</File>
+		<File>PowerEnglandSuzerain.xml</File>
+		<File>PowerEnglandBuildings.xml</File>
+		<File>PowerEnglandText.xml</File>
+	</Files>
+	<LocalizedText>
+		<Text id="LOC_POWER_ENGLAND_NAME">
+			<zh_Hans_CN>超级英格兰</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_POWER_ENGLAND_DESCRIPTION">
+			<zh_Hans_CN>超级英格兰 - 全文明特色建筑、单位及全领袖特性。</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
+</Mod>

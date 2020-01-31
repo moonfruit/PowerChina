@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+	<Types>
+		<Row Type="TRAIT_ALL_SUZERAIN_BONUSES" Kind="KIND_TRAIT"/>
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" Name="LOC_TRAIT_ALL_SUZERAIN_BONUSES_NAME"
+			Description="LOC_TRAIT_ALL_SUZERAIN_BONUSES_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_ALL_SUZERAIN_BONUSES"/>
+	</LeaderTraits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="AMSTERDAM_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="BRUSSELS_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="BUENOS_AIRES_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="CARTHAGE_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="GENEVA_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="HATTUSA_UNIQUE_INFLUENCE_ALUMINUM_RESOURCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="HATTUSA_UNIQUE_INFLUENCE_COAL_RESOURCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="HATTUSA_UNIQUE_INFLUENCE_HORSES_RESOURCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="HATTUSA_UNIQUE_INFLUENCE_IRON_RESOURCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="HATTUSA_UNIQUE_INFLUENCE_NITER_RESOURCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="HATTUSA_UNIQUE_INFLUENCE_OIL_RESOURCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="HATTUSA_UNIQUE_INFLUENCE_URANIUM_RESOURCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="HONG_KONG_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="JAKARTA_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="KABUL_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="KANDY_UNIQUE_INFLUENCE_GRANT_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="KANDY_UNIQUE_INFLUENCE_BETTER_RELIC_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="KUMASI_UNIQUE_INFLUENCE_TRADE_CULTURE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="KUMASI_UNIQUE_INFLUENCE_TRADE_GOLD_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="LA_VENTA_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="LISBON_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="MOHENJO_DARO_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="NAN_MADOL_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="PRESLAV_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="SEOUL_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="STOCKHOLM_UNIQUE_INFLUENCE_GREAT_GENERAL_POINTS_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="STOCKHOLM_UNIQUE_INFLUENCE_GREAT_ADMIRAL_POINTS_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="STOCKHOLM_UNIQUE_INFLUENCE_GREAT_ENGINEER_POINTS_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="STOCKHOLM_UNIQUE_INFLUENCE_GREAT_MERCHANT_POINTS_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="STOCKHOLM_UNIQUE_INFLUENCE_GREAT_PROPHET_POINTS_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="STOCKHOLM_UNIQUE_INFLUENCE_GREAT_SCIENTIST_POINTS_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="STOCKHOLM_UNIQUE_INFLUENCE_GREAT_WRITER_POINTS_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="STOCKHOLM_UNIQUE_INFLUENCE_GREAT_ARTIST_POINTS_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="STOCKHOLM_UNIQUE_INFLUENCE_GREAT_MUSICIAN_POINTS_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="TORONTO_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="VALLETTA_UNIQUE_INFLUENCE_PURCHASE_CHEAPER_WALLS_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="VALLETTA_UNIQUE_INFLUENCE_PURCHASE_CHEAPER_CASTLE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="VALLETTA_UNIQUE_INFLUENCE_PURCHASE_CHEAPER_STAR_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="VALLETTA_UNIQUE_INFLUENCE_CITY_CENTER_BUILDINGS_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="VALLETTA_UNIQUE_INFLUENCE_ENCAMPMENT_BUILDINGS_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="VILNIUS_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="YEREVAN_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="ZANZIBAR_UNIQUE_INFLUENCE_CINNAMON_RESOURCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="ZANZIBAR_UNIQUE_INFLUENCE_CLOVES_RESOURCE_BONUS_PLAYER"/>
+
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="MINOR_CIV_AUCKLAND_UNIQUE_INFLUENCE_BONUS_BASE_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="MINOR_CIV_AUCKLAND_UNIQUE_INFLUENCE_BONUS_INDUSTRIAL_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="MINOR_CIV_ANTANANARIVO_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="MINOR_CIV_ARMAGH_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="MINOR_CIV_GRANADA_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="MINOR_CIV_MUSCAT_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+		<Row TraitType="TRAIT_ALL_SUZERAIN_BONUSES" ModifierId="MINOR_CIV_PALENQUE_UNIQUE_INFLUENCE_BONUS_PLAYER"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>AMSTERDAM_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BRUSSELS_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BUENOS_AIRES_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CARTHAGE_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GENEVA_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_ALUMINUM_RESOURCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_COAL_RESOURCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_HORSES_RESOURCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_IRON_RESOURCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_NITER_RESOURCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_OIL_RESOURCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_URANIUM_RESOURCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HONG_KONG_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>JAKARTA_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KABUL_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KANDY_UNIQUE_INFLUENCE_GRANT_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KANDY_UNIQUE_INFLUENCE_BETTER_RELIC_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KUMASI_UNIQUE_INFLUENCE_TRADE_CULTURE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KUMASI_UNIQUE_INFLUENCE_TRADE_GOLD_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>LA_VENTA_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>LISBON_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MOHENJO_DARO_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>NAN_MADOL_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PRESLAV_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SEOUL_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_GENERAL_POINTS_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_ADMIRAL_POINTS_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_ENGINEER_POINTS_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_MERCHANT_POINTS_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_PROPHET_POINTS_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_SCIENTIST_POINTS_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_WRITER_POINTS_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_ARTIST_POINTS_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_MUSICIAN_POINTS_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TORONTO_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VALLETTA_UNIQUE_INFLUENCE_PURCHASE_CHEAPER_WALLS_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VALLETTA_UNIQUE_INFLUENCE_PURCHASE_CHEAPER_CASTLE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VALLETTA_UNIQUE_INFLUENCE_PURCHASE_CHEAPER_STAR_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VALLETTA_UNIQUE_INFLUENCE_CITY_CENTER_BUILDINGS_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VALLETTA_UNIQUE_INFLUENCE_ENCAMPMENT_BUILDINGS_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VILNIUS_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>YEREVAN_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ZANZIBAR_UNIQUE_INFLUENCE_CINNAMON_RESOURCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ZANZIBAR_UNIQUE_INFLUENCE_CLOVES_RESOURCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_AUCKLAND_UNIQUE_INFLUENCE_BONUS_BASE_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_AUCKLAND_UNIQUE_INFLUENCE_BONUS_INDUSTRIAL_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_ANTANANARIVO_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_ARMAGH_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_GRANADA_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MUSCAT_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PALENQUE_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HUMAN</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>AMSTERDAM_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_AMSTERDAM_LUXURY_TRADE_ROUTE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>BRUSSELS_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BRUSSELS_WONDER_PRODUCTION_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUENOS_AIRES_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BUENOS_AIRES_BONUS_RESOURCE_AMENITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>CARTHAGE_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CARTHAGE_TRADE_ROUTE_CAPACITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GENEVA_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_GENEVA_SCIENCE_AT_PEACE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_ALUMINUM_RESOURCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_ALUMINUM_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_COAL_RESOURCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_COAL_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_HORSES_RESOURCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_HORSES_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_IRON_RESOURCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_IRON_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_NITER_RESOURCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_NITER_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_OIL_RESOURCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_OIL_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>HATTUSA_UNIQUE_INFLUENCE_URANIUM_RESOURCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_URANIUM_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>HONG_KONG_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HONG_KONG_PROJECT_PRODUCTION_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>JAKARTA_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_JAKARTA_TRADING_POST_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>KABUL_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_KABUL_UNIT_EXPERIENCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>KANDY_UNIQUE_INFLUENCE_GRANT_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_KANDY_GRANT_RELIC_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>KANDY_UNIQUE_INFLUENCE_BETTER_RELIC_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_KANDY_BETTER_RELIC_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>KUMASI_UNIQUE_INFLUENCE_TRADE_CULTURE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_KUMASI_CULTURE_TRADE_ROUTE_YIELD_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>KUMASI_UNIQUE_INFLUENCE_TRADE_GOLD_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_KUMASI_GOLD_TRADE_ROUTE_YIELD_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>LA_VENTA_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_LA_VENTA_CAN_COLLOSSAL_HEAD</Value>
+		</Row>
+		<Row>
+			<ModifierId>LISBON_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_LISBON_SEA_TRADE_ROUTE_PLUNDER_IMMUNITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOHENJO_DARO_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_MOHENJO_DARO_CITIES_FRESHWATER_HOUSING_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAN_MADOL_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_NAN_MADOL_DISTRICTS_CULTURE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>PRESLAV_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_PRESLAV_ABILITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEOUL_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_SEOUL_TECH_BOOST_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_GENERAL_POINTS_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_STOCKHOLM_GREAT_GENERAL_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_ADMIRAL_POINTS_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_STOCKHOLM_GREAT_ADMIRAL_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_ENGINEER_POINTS_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_STOCKHOLM_GREAT_ENGINEER_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_MERCHANT_POINTS_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_STOCKHOLM_GREAT_MERCHANT_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_PROPHET_POINTS_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_STOCKHOLM_GREAT_PROPHET_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_SCIENTIST_POINTS_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_STOCKHOLM_GREAT_SCIENTIST_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_WRITER_POINTS_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_STOCKHOLM_GREAT_WRITER_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_ARTIST_POINTS_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_STOCKHOLM_GREAT_ARTIST_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>STOCKHOLM_UNIQUE_INFLUENCE_GREAT_MUSICIAN_POINTS_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_STOCKHOLM_GREAT_MUSICIAN_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TORONTO_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_TORONTO_REGIONAL_RANGE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>VALLETTA_UNIQUE_INFLUENCE_PURCHASE_CHEAPER_WALLS_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VALLETTA_PURCHASE_CHEAPER_WALLS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>VALLETTA_UNIQUE_INFLUENCE_PURCHASE_CHEAPER_CASTLE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VALLETTA_PURCHASE_CHEAPER_CASTLE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>VALLETTA_UNIQUE_INFLUENCE_PURCHASE_CHEAPER_STAR_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VALLETTA_PURCHASE_CHEAPER_STAR_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>VALLETTA_UNIQUE_INFLUENCE_CITY_CENTER_BUILDINGS_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VALLETTA_CITY_CENTER_BUILDINGS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>VALLETTA_UNIQUE_INFLUENCE_ENCAMPMENT_BUILDINGS_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VALLETTA_ENCAMPMENT_BUILDINGS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILNIUS_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VILNIUS_CIVIC_BOOST_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>YEREVAN_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_YEREVAN_APOSTLE_PROMOTION_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZANZIBAR_UNIQUE_INFLUENCE_CINNAMON_RESOURCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_ZANZIBAR_CINNAMON_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZANZIBAR_UNIQUE_INFLUENCE_CLOVES_RESOURCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_ZANZIBAR_CLOVES_RESOURCE_BONUS</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_AUCKLAND_UNIQUE_INFLUENCE_BONUS_BASE_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_AUCKLAND_SHALLOW_WATER_PRODUCTION_BONUS_BASE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_AUCKLAND_UNIQUE_INFLUENCE_BONUS_INDUSTRIAL_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_AUCKLAND_SHALLOW_WATER_PRODUCTION_BONUS_INDUSTRIAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_ANTANANARIVO_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_ANTANANARIVO_CULTURE_FROM_EARNED_GREAT_PEOPLE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_ARMAGH_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_ARMAGH_UNLOCK_MONASTERY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_GRANADA_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_GRANADA_UNLOCK_ALCAZAR_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MUSCAT_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_MUSCAT_COMMERCIAL_HUB_AMENITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PALENQUE_UNIQUE_INFLUENCE_BONUS_PLAYER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_PALENQUE_CAMPUS_GROWTH_BONUS</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>
