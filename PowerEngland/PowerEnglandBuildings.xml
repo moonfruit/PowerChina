@@ -18,87 +18,87 @@
 			PurchaseYield="YIELD_GOLD" Cost="1" MaxWorldInstances="1" TraitType="TRAIT_BUILDING_DRAGON" Housing="30"
 			OuterDefenseHitPoints="100" OuterDefenseStrength="10" RegionalRange="15" CitizenSlots="30" Entertainment="15"
 			Maintenance="1"/>
-		</Buildings>
+	</Buildings>
 
-		<Building_YieldChanges>
-			<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_SCIENCE" YieldChange="1"/>
-			<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_PRODUCTION" YieldChange="50"/>
-			<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_GOLD" YieldChange="30"/>
-			<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_FAITH" YieldChange="10"/>
-			<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_FOOD" YieldChange="10"/>
-			<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_CULTURE" YieldChange="1"/>
-		</Building_YieldChanges>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_PRODUCTION" YieldChange="50"/>
+		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_GOLD" YieldChange="30"/>
+		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_FAITH" YieldChange="10"/>
+		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_FOOD" YieldChange="10"/>
+		<Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Building_YieldChanges>
 
-		<Building_GreatWorks>
-			<Row BuildingType="BUILDING_DRAGON" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="6"/>
-		</Building_GreatWorks>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_DRAGON" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="6"/>
+	</Building_GreatWorks>
 
-		<Building_GreatPersonPoints>
-			<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="5"/>
-			<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="5"/>
-			<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="10"/>
-			<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="10"/>
-			<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
-			<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
-			<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
-			<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
-			<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
-		</Building_GreatPersonPoints>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="5"/>
+		<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="5"/>
+		<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="10"/>
+		<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
 
-		<BuildingModifiers>
-			<!-- 移动 -->
-			<Row>
-				<BuildingType>BUILDING_DRAGON</BuildingType>
-				<ModifierId>TRAIT_DRAGON_MOVEMENT</ModifierId>
-			</Row>
-			<!-- 战斗力 -->
-			<Row>
-				<BuildingType>BUILDING_DRAGON</BuildingType>
-				<ModifierId>TRAIT_DRAGON_COMBAT_STRENGTH</ModifierId>
-			</Row>
-			<!-- 射程 -->
-			<Row>
-				<BuildingType>BUILDING_DRAGON</BuildingType>
-				<ModifierId>TRAIT_DRAGON_ATTACK_RANGE</ModifierId>
-			</Row>
-		</BuildingModifiers>
+	<BuildingModifiers>
+		<!-- 移动 -->
+		<Row>
+			<BuildingType>BUILDING_DRAGON</BuildingType>
+			<ModifierId>TRAIT_DRAGON_MOVEMENT</ModifierId>
+		</Row>
+		<!-- 战斗力 -->
+		<Row>
+			<BuildingType>BUILDING_DRAGON</BuildingType>
+			<ModifierId>TRAIT_DRAGON_COMBAT_STRENGTH</ModifierId>
+		</Row>
+		<!-- 射程 -->
+		<Row>
+			<BuildingType>BUILDING_DRAGON</BuildingType>
+			<ModifierId>TRAIT_DRAGON_ATTACK_RANGE</ModifierId>
+		</Row>
+	</BuildingModifiers>
 
-		<Modifiers>
-			<!-- 移动 -->
-			<Row>
-				<ModifierId>TRAIT_DRAGON_MOVEMENT</ModifierId>
-				<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
-			</Row>
-			<!-- 战斗力 -->
-			<Row>
-				<ModifierId>TRAIT_DRAGON_COMBAT_STRENGTH</ModifierId>
-				<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
-			</Row>
-			<!-- 射程 -->
-			<Row>
-				<ModifierId>TRAIT_DRAGON_ATTACK_RANGE</ModifierId>
-				<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_ATTACK_RANGE</ModifierType>
-			</Row>
-		</Modifiers>
+	<Modifiers>
+		<!-- 移动 -->
+		<Row>
+			<ModifierId>TRAIT_DRAGON_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<!-- 战斗力 -->
+		<Row>
+			<ModifierId>TRAIT_DRAGON_COMBAT_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<!-- 射程 -->
+		<Row>
+			<ModifierId>TRAIT_DRAGON_ATTACK_RANGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_ATTACK_RANGE</ModifierType>
+		</Row>
+	</Modifiers>
 
-		<ModifierArguments>
-			<!-- 移动 -->
-			<Row>
-				<ModifierId>TRAIT_DRAGON_MOVEMENT</ModifierId>
-				<Name>Amount</Name>
-				<Value>3</Value>
-			</Row>
-			<!-- 战斗力 -->
-			<Row>
-				<ModifierId>TRAIT_DRAGON_COMBAT_STRENGTH</ModifierId>
-				<Name>Amount</Name>
-				<Value>10</Value>
-			</Row>
-			<!-- 射程 -->
-			<Row>
-				<ModifierId>TRAIT_DRAGON_ATTACK_RANGE</ModifierId>
-				<Name>Amount</Name>
-				<Value>1</Value>
-			</Row>
-		</ModifierArguments>
-	</GameInfo>
+	<ModifierArguments>
+		<!-- 移动 -->
+		<Row>
+			<ModifierId>TRAIT_DRAGON_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!-- 战斗力 -->
+		<Row>
+			<ModifierId>TRAIT_DRAGON_COMBAT_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<!-- 射程 -->
+		<Row>
+			<ModifierId>TRAIT_DRAGON_ATTACK_RANGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>
