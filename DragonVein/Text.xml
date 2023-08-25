@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Row Tag="LOC_BUILDING_DRAGON_NAME" Language="en_US">
+            <Text>Dragon Vein</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_DRAGON_NAME" Language="zh_Hans_CN">
+            <Text>龙脉</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_DRAGON_DESCRIPTION" Language="en_US">
+            <Text>Dragon Vein owner will rule the world!</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_DRAGON_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>得龙脉者得天下</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

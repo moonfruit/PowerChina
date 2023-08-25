@@ -1,0 +1,58 @@
+<GameData>
+    <Types>
+        <Row Type="BUILDING_DRAGON" Kind="KIND_BUILDING"/>
+    </Types>
+
+    <Buildings>
+        <Row BuildingType="BUILDING_DRAGON" Name="LOC_BUILDING_DRAGON_NAME" Description="LOC_BUILDING_DRAGON_DESCRIPTION">
+            <Cost>1</Cost>
+            <MaxPlayerInstances>1</MaxPlayerInstances>
+            <MaxWorldInstances>1</MaxWorldInstances>
+            <Capital>true</Capital>
+            <PrereqDistrict>DISTRICT_CITY_CENTER</PrereqDistrict>
+            <PurchaseYield>YIELD_GOLD</PurchaseYield>
+            <MustPurchase>true</MustPurchase>
+            <IsWonder>true</IsWonder>
+            <CitizenSlots>10</CitizenSlots>
+            <Entertainment>10</Entertainment>
+            <Housing>10</Housing>
+            <Maintenance>1</Maintenance>
+            <OuterDefenseHitPoints>10</OuterDefenseHitPoints>
+            <OuterDefenseStrength>10</OuterDefenseStrength>
+            <RegionalRange>100000</RegionalRange><!--辐射范围-->
+        </Row>
+    </Buildings>
+
+    <Building_YieldChanges>
+        <Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_FOOD" YieldChange="10"/>
+        <Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_PRODUCTION" YieldChange="100"/>
+        <Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_GOLD" YieldChange="200"/>
+        <Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_SCIENCE" YieldChange="-10"/>
+        <Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_CULTURE" YieldChange="-10"/>
+        <Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_FAITH" YieldChange="50"/>
+    </Building_YieldChanges>
+
+    <Building_GreatPersonPoints>
+        <Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatPersonClassType="GREAT_PERSON_CLASS_COMANDANTE_GENERAL" PointsPerTurn="1"/>
+    </Building_GreatPersonPoints>
+
+    <Building_GreatWorks>
+        <Row BuildingType="BUILDING_DRAGON" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="10"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatWorkSlotType="GREATWORKSLOT_ARTIFACT" NumSlots="10"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="10"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="10"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="10"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="10"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="10"/>
+        <Row BuildingType="BUILDING_DRAGON" GreatWorkSlotType="GREATWORKSLOT_HERO" NumSlots="10"/>
+    </Building_GreatWorks>
+</GameData>

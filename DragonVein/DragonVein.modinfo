@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="MOON_DRAGON" version="3">
+    <Properties>
+        <Name>月果龙脉</Name>
+        <Description>得龙脉者得天下</Description>
+        <Teaser>得龙脉者得天下</Teaser>
+        <Authors>MoonFruit</Authors>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <FrontEndActions />
+    <InGameActions>
+        <UpdateDatabase id="MOON_DRAGON_BUILDINGS">
+            <File>Buildings.xml</File>
+        </UpdateDatabase>
+        <UpdateIcons id="MOON_DRAGON_ICONS">
+            <File>Icons.xml</File>
+        </UpdateIcons>
+        <UpdateText id="MOON_DRAGON_TEXT">
+            <File>Text.xml</File>
+        </UpdateText>
+    </InGameActions>
+    <Files>
+        <File>Buildings.xml</File>
+        <File>Icons.xml</File>
+        <File>Text.xml</File>
+    </Files>
+</Mod>
