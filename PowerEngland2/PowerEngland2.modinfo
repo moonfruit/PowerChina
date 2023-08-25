@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="POWER_ENGLAND" version="2.0">
+	<Properties>
+		<Name>LOC_POWER_ENGLAND_NAME</Name>
+		<Teaser>LOC_POWER_ENGLAND_DESCRIPTION</Teaser>
+		<Description>LOC_POWER_ENGLAND_DESCRIPTION</Description>
+		<Authors>MoonFruit</Authors>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="POWER_ENGLAND_GAMEPLAY">
+			<Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Items>
+				<File>Civilizations.sql</File>
+				<File>Buildings.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText>
+			<Properties>
+				<Ruleset>RULESET_STANDARD</Ruleset>
+			</Properties>
+			<Items>
+				<File>Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+	<Files>
+		<!-- <File>Civilizations.sql</File> -->
+		<File>Buildings.xml</File>
+		<File>Text.xml</File>
+	</Files>
+	<LocalizedText>
+		<Text id="LOC_POWER_ENGLAND_NAME">
+			<zh_Hans_CN>超级英格兰2</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_POWER_ENGLAND_DESCRIPTION">
+			<zh_Hans_CN>超级英格兰2 - 全文明特色建筑、单位及全领袖特性。</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
+</Mod>
