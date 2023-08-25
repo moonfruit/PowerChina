@@ -7,10 +7,12 @@
         <Authors>MoonFruit</Authors>
         <CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
-    <FrontEndActions />
     <InGameActions>
         <UpdateDatabase id="MOON_DRAGON_BUILDINGS">
             <File>Buildings.xml</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="MOON_DRAGON_BUILDINGS_SQL">
+            <File>Buildings.sql</File>
         </UpdateDatabase>
         <UpdateIcons id="MOON_DRAGON_ICONS">
             <File>Icons.xml</File>
@@ -21,6 +23,7 @@
     </InGameActions>
     <Files>
         <File>Buildings.xml</File>
+        <File>Buildings.sql</File>
         <File>Icons.xml</File>
         <File>Text.xml</File>
     </Files>

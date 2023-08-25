@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
     <IconDefinitions>
-        <Row Name="ICON_BUILDING_DRAGON" Atlas="ICON_ATLAS_BUILDINGS" Index="99" />
-        <Row Name="ICON_BUILDING_DRAGON_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="99" />
+        <Row Name="ICON_BUILDING_DRAGON" Atlas="ICON_ATLAS_BUILDINGS" Index="1"/>
+        <Row Name="ICON_BUILDING_DRAGON_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="1"/>
     </IconDefinitions>
 </GameData>
