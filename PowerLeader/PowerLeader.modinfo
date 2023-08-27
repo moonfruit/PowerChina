@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="MOON_LEADER" version="1">
+  <Properties>
+    <Name>LOC_POWER_LEADER_NAME</Name>
+    <Description>LOC_POWER_LEADER_DESCRIPTION</Description>
+    <Teaser>LOC_POWER_LEADER_DESCRIPTION</Teaser>
+    <Authors>MoonFruit</Authors>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_POWER_LEADER_NAME">
+      <en_US>Power Leader</en_US>
+      <zh_Hans_CN>超级领袖</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_POWER_LEADER_DESCRIPTION">
+      <en_US>All Traits Power Leader</en_US>
+      <zh_Hans_CN>全特性超级领袖</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <InGameActions>
+    <UpdateDatabase id="MOON_LEADER_GAMEPLAY">
+      <Properties>
+        <LoadOrder>50000</LoadOrder>
+      </Properties>
+      <File>Gameplay.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Gameplay.sql</File>
+  </Files>
+</Mod>
