@@ -13,7 +13,7 @@ values
     -- 巴比伦                                    尤里卡提供科技的所有科技值。
     ('TRAIT_CIVILIZATION_BABYLON',              'TRAIT_EUREKA_INCREASE'),
     -- 巴比伦                                    每回合的科技值-50%。
-    ('TRAIT_CIVILIZATION_BABYLON',              'TRAIT_SCIENCE_DECREASE'),
+    -- ('TRAIT_CIVILIZATION_BABYLON',              'TRAIT_SCIENCE_DECREASE'),
     -- 加拿大                                    无法对城邦宣战或发动突袭战争。
     ('TRAIT_CIVILIZATION_FACES_OF_PEACE',       'TRAIT_NO_SUPRISE_WAR_FOR_CANADA'),
     -- 高卢                                      特色区域也无法建在市中心旁。
@@ -62,7 +62,7 @@ values
     -- 印度尼西亚                                特色改良设施 - 甘榜屋
     ('TRAIT_CIVILIZATION_IMPROVEMENT_KAMPUNG',  'ANY'),
     -- 克里                                      特色改良设施 - 棚屋
-    -- ('TRAIT_CIVILIZATION_IMPROVEMENT_MEKEWAP',  'ANY'),
+    ('TRAIT_CIVILIZATION_IMPROVEMENT_MEKEWAP',  'ANY'),
     -- 波斯                                      特色改良设施 - 波斯庭院
     -- ('TRAIT_CIVILIZATION_IMPROVEMENT_PAIRIDAEZA', 'ANY'),
     -- 荷兰                                      特色改良设施 - 圩田
@@ -72,10 +72,14 @@ values
 
     -- 美国 - 亚伯拉罕·林肯                      种植园每回合提供的忠诚度-2
     ('TRAIT_LEADER_LINCOLN',                    'PLANTATION_NEGATIVE_LOYALTY'),
+    -- 埃塞俄比亚 - 孟尼利克二世                 获得等同于建在丘陵上的城市所产生信仰值15%的文化值。
+    ('TRAIT_LEADER_MENELIK',                    'TRAIT_FAITH_INTO_CULTURE_HILLS'),
+    -- 埃塞俄比亚 - 孟尼利克二世                 获得等同于建在丘陵上的城市所产生信仰值15%的科技值。
+    ('TRAIT_LEADER_MENELIK',                    'TRAIT_FAITH_INTO_SCIENCE_HILLS'),
     -- 玛雅 - 六日夫人                           首都6单元格范围外的非首都城市的所有产出-15%。
     ('TRAIT_LEADER_MUTAL',                      'TRAIT_LEADER_NEARBY_CITIES_LOSE_YIELDS'),
     -- 刚果 - 恩津加·姆班德                      和你的首都处于不同大陆的城市-15%产出。
-    ('TRAIT_LEADER_NZINGA_MBANDE',              'TRAIT_FOREIGN_CONTINENT_YIELD')
+    ('TRAIT_LEADER_NZINGA_MBANDE',              'TRAIT_FOREIGN_CONTINENT_YIELD'),
     -- 刚果 - 姆本巴·恩津加                      无法建造圣地区、获得大预言家，或创建宗教。从已成为多数刚果城市信仰的宗教中获得信仰值。
     ('TRAIT_LEADER_RELIGIOUS_CONVERT',          'TRAIT_GAINS_FOUNDER_BELIEF_MAJORITY_RELIGION'),
     -- 日本 - 特色能力                           国际贸易路线的产出和旅游业绩-25%
