@@ -30,6 +30,10 @@
         <Row BuildingType="BUILDING_DRAGON" YieldType="YIELD_FAITH" YieldChange="50"/>
     </Building_YieldChanges>
 
+    <Building_GreatWorks>
+        <Row BuildingType="BUILDING_DRAGON" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="6"/>
+    </Building_GreatWorks>
+
     <Modifiers>
         <!--边界扩张-->
         <Row>

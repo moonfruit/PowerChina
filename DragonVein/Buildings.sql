@@ -4,9 +4,9 @@ select 'BUILDING_DRAGON', GreatPersonClassType, 1
 from GreatPersonClasses;
 
 -- 巨作槽位
-insert into Building_GreatWorks (BuildingType, GreatWorkSlotType, NumSlots)
-select 'BUILDING_DRAGON', GreatWorkSlotType, 10
-from GreatWorkSlotTypes;
+-- insert into Building_GreatWorks (BuildingType, GreatWorkSlotType, NumSlots)
+-- select 'BUILDING_DRAGON', GreatWorkSlotType, 10
+-- from GreatWorkSlotTypes;
 
 -- 全地形
 insert into Building_ValidTerrains (BuildingType, TerrainType)
@@ -14,11 +14,11 @@ select 'BUILDING_DRAGON', TerrainType
 from Terrains;
 
 -- 忽略要素
-create table Building_Dragon_Ignore
+create table Building_Dragon_Excluded
 (
-    Item TEXT PRIMARY KEY
+    Item text primary key
 );
-insert into Building_Dragon_Ignore
+insert into Building_Dragon_Excluded
 values ('SLOT_DIPLOMATIC'),     -- 外交政策槽位: 游戏早期无外交政策填充
        ('SLOT_GREAT_PERSON');   -- 未知政策槽位
 
@@ -26,12 +26,12 @@ values ('SLOT_DIPLOMATIC'),     -- 外交政策槽位: 游戏早期无外交政�
 insert into Modifiers (ModifierId, ModifierType, RunOnce, Permanent)
 select 'TRAIT_DRAGON_GOVERNMENT_' || GovernmentSlotType, 'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER', 1, 1
 from GovernmentSlots
-where GovernmentSlotType not in (select Item from Building_Dragon_Ignore);
+where GovernmentSlotType not in (select Item from Building_Dragon_Excluded);
 
 insert into ModifierArguments (ModifierId, Name, Value)
 select 'TRAIT_DRAGON_GOVERNMENT_' || GovernmentSlotType, 'GovernmentSlotType', GovernmentSlotType
 from GovernmentSlots
-where GovernmentSlotType not in (select Item from Building_Dragon_Ignore);
+where GovernmentSlotType not in (select Item from Building_Dragon_Excluded);
 
 -- 免费资源
 insert into Modifiers (ModifierId, ModifierType, RunOnce, Permanent)
@@ -56,4 +56,4 @@ from Modifiers
 where ModifierId like 'TRAIT_DRAGON_%';
 
 -- 清理环境
-drop table Building_Dragon_Ignore;
+drop table Building_Dragon_Excluded;

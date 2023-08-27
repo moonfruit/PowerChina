@@ -5,6 +5,7 @@
         <Description>得龙脉者得天下</Description>
         <Teaser>得龙脉者得天下</Teaser>
         <Authors>MoonFruit</Authors>
+        <AffectsSavedGames>1</AffectsSavedGames>
         <CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
     <InGameActions>
