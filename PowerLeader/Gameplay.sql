@@ -58,7 +58,7 @@ values
     -- 刚果                                         特色区域 - 姆班赞 - 替代社区
     ('TRAIT_CIVILIZATION_MBANZA',                  'ANY'),
     -- 苏格兰                                       特色改良设施 - 高尔夫球场
-    -- ('TRAIT_CIVILIZATION_IMPROVEMENT_GOLF_COURSE', 'ANY'),
+    ('TRAIT_CIVILIZATION_IMPROVEMENT_GOLF_COURSE', 'ANY'),
     -- 印度尼西亚                                   特色改良设施 - 甘榜屋
     ('TRAIT_CIVILIZATION_IMPROVEMENT_KAMPUNG',     'ANY'),
     -- 克里                                         特色改良设施 - 棚屋
@@ -66,9 +66,9 @@ values
     -- 波斯                                         特色改良设施 - 波斯庭院
     ('TRAIT_CIVILIZATION_IMPROVEMENT_PAIRIDAEZA',  'ANY'),
     -- 荷兰                                         特色改良设施 - 圩田
-    -- ('TRAIT_CIVILIZATION_IMPROVEMENT_POLDER',   'ANY'),
+    ('TRAIT_CIVILIZATION_IMPROVEMENT_POLDER',      'ANY'),
     -- 努比亚                                       特色改良设施 - 努比亚金字塔
-    -- ('TRAIT_CIVILIZATION_IMPROVEMENT_PYRAMID',  'ANY'),
+    ('TRAIT_CIVILIZATION_IMPROVEMENT_PYRAMID',     'ANY'),
 
     -- 美国 - 亚伯拉罕·林肯             种植园每回合提供的忠诚度-2
     ('TRAIT_LEADER_LINCOLN',           'PLANTATION_NEGATIVE_LOYALTY'),
